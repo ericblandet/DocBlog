@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+html, body {
+    font-family: 'Source Code Pro', monospace;
+    margin:0;
+    padding:0;
+    height:100%
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height:100%;
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.35);
+}
